@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class NumberSwap {
 
 	public static void main(String[] args) {
-	       int x, y, t;// x and y are to swap   
+	       int a, b, c;   
 	       Scanner sc = new Scanner(System.in);  
 	       System.out.println("Enter the value of X and Y");  
-	       x = sc.nextInt();  
-	       y = sc.nextInt();  
-	       System.out.println("before swapping numbers: "+x +"  "+ y);  
-	       /*swapping */  
-	       t = x;  
-	       x = y;  
-	       y = t;  
-	       System.out.println("After swapping: "+x +"   " + y);  
+	       a = sc.nextInt();  
+	       b = sc.nextInt();  
+	       System.out.println("before swapping numbers: "+a +"  "+ b);  
+	         
+	       c = a;  
+	       a = b;  
+	       b = c;  
+	       System.out.println("After swapping: "+a +"   " + b);  
 	       System.out.println( );  
 
 
