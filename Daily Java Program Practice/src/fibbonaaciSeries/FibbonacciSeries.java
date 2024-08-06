@@ -4,7 +4,7 @@ public class FibbonacciSeries {
 
 	public static void main(String[] args) {
 		int num = 10; // still ten
-		seriesPrint(num);
+		FibbonacciSeries.seriesPrint(num);
 
 	}
 
