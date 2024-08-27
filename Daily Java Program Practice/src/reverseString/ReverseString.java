@@ -10,7 +10,7 @@ public class ReverseString {
 			ReverseString = StringToRev.charAt(i) + ReverseString;
 		}
 		
-		System.out.println("Reversed String: " + ReverseString);
+		System.out.println("Reversed String : " + ReverseString);
 
 	}
 
