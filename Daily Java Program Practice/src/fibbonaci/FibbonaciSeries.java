@@ -9,7 +9,6 @@ public class FibbonaciSeries {
 		 for(int i = 0 ; i < n ; i++) {
 			 System.out.println(n1);
 			 
-			 //swap logic
 			  int n3 = n1 + n2 ;
 			  n1 = n2 ;
 			  n2 = n3 ;
