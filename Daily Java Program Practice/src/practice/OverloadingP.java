@@ -7,9 +7,9 @@ public class OverloadingP {
 		System.out.println("Car Details");
 	}
 	
-	public void Car (String carModel) 
+	public String Car (String carModel) 
 	{
-		System.out.println("Car Model : " + carModel);
+		return carModel.toLowerCase() ;
 	}
 	
 	public void Car (String Colour , int Seater)
@@ -17,20 +17,20 @@ public class OverloadingP {
 		System.out.println("Car Colour & Seater : " + Colour +" & "+ Seater );
 	}
 	
-	public void Car (String Company , String Country) 
+	public String Car (String Company , String Country) 
 	{
-		System.out.println("Company & Country Belongs To : " + Company + " ," + Country);
+		return Company + " ," +  Country ;
 	}
 	
 	public static void main(String[] args) 
 	{
 		OverloadingP  N = new OverloadingP();
 		N.Car();
-		N.Car("TATA MOTORS", "INDIA");
-		N.Car("TATA CURVE");
+		String CC = N.Car("TATA MOTORS", "INDIA");
+		System.out.println("Company and Country : " + CC);
+		String caarmodel  = N.Car("TATA CURVE");
+		System.out.println("Car Model : " + caarmodel);
 		N.Car("Black", 5);
-		
-
 	}
 
 }
