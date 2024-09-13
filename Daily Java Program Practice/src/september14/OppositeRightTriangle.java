@@ -1,4 +1,4 @@
-package starPattern;
+package september14;
 
 public class OppositeRightTriangle {
 	public static void main(String[] args) {
