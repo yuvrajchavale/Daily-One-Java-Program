@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class IncreasingOrder {
 
 	public static void main(String[] args) {
-		 String input = "9908500700"; // Input as a String to preserve leading zeros
+		 String input = "9908500700"; 
+		 // Input as a String to preserve leading zeros
 
 	        // Convert the input String to a character array
 	        char[] digits = input.toCharArray();
